@@ -28,7 +28,7 @@ export default function Dictionary() {
     <div className="Dictionary">
       <form onSubmit={search}>
         <input
-          className="form-control mt-4"
+          className="form-control"
           type="search"
           placeholder="Search for a word"
           onChange={handleKeywordChange}

@@ -1,4 +1,13 @@
+body {
+  background-color: #e7f8ff;
+}
+
 .App .container {
   min-width: 350px;
   max-width: 600px;
+}
+
+footer {
+  font-size: 12px;
+  color: #58769e;
 }
