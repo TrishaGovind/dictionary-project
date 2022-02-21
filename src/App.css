@@ -1,7 +1,11 @@
 @font-face {
-  font-family: BlackMangoVariable;
-  src: local("BlackMangoVariable"),
-    url("./fonts/BlackMangoVariable.ttf") format ("truetype");
+  font-family: BlackMango-Bold;
+  src: local("BlackMango-Bold"), url("./fonts/BlackMango-Bold.ttf");
+}
+
+@font-face {
+  font-family: BlackMango-Medium;
+  src: local("BlackMango-Medium"), url("./fonts/BlackMango-Medium.ttf");
 }
 
 body {

@@ -17,7 +17,7 @@ export default function Phonetic(props) {
               <FontAwesomeIcon icon={faCirclePlay} className="button" />
             </a>
           </div>
-          <div className="col pt-1 ps-3 text">{props.phonetic.text}</div>
+          <div className="col pt-1 ps-4 text">{props.phonetic.text}</div>
         </div>
       </div>
     );

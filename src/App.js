@@ -1,5 +1,5 @@
 import "./App.css";
-import "./fonts/BlackMangoVariable.ttf";
+import "./fonts/BlackMango-Medium.ttf";
 import logo from "./logo.png";
 import Dictionary from "./Dictionary.js";
 
@@ -13,7 +13,7 @@ function App() {
               src={logo}
               className="App-logo img-fluid mx-auto d-block mt-4"
               alt="logo"
-              width={80}
+              width={100}
             />
           </a>
         </header>
