@@ -1,4 +1,5 @@
 import "./App.css";
+import "./fonts/BlackMangoVariable.ttf";
 import logo from "./logo.png";
 import Dictionary from "./Dictionary.js";
 
@@ -7,14 +8,16 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img
-            src={logo}
-            className="App-logo img-fluid mx-auto d-block mt-4"
-            alt="logo"
-            width={80}
-          />
+          <a href="./Dictionary.js">
+            <img
+              src={logo}
+              className="App-logo img-fluid mx-auto d-block mt-4"
+              alt="logo"
+              width={80}
+            />
+          </a>
         </header>
-        <Dictionary />
+        <Dictionary defaultKeyword="dictionary" />
 
         <footer className="text-center mt-4">
           This project was coded by{" "}

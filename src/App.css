@@ -1,3 +1,9 @@
+@font-face {
+  font-family: BlackMangoVariable;
+  src: local("BlackMangoVariable"),
+    url("./fonts/BlackMangoVariable.ttf") format ("truetype");
+}
+
 body {
   background-color: #e7f8ff;
 }
@@ -10,4 +16,6 @@ body {
 footer {
   font-size: 12px;
   color: #58769e;
+  font-family: Gayathri;
+  color: #355d8b;
 }

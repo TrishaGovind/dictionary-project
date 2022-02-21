@@ -2,12 +2,45 @@
   display: block;
   margin: auto;
   width: 93%;
+  font-family: Gayathri;
+  letter-spacing: 1px;
 }
 
-.Dictionary {
+.Dictionary section {
   background: white;
   padding: 20px;
   border-radius: 6px;
-  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  box-shadow: 0 2px 20px rgb(62 219 255 / 15%);
   margin: 20px 0;
+}
+
+.Results h1 {
+  font-family: "BlackMangoVariable";
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #52b3e8;
+}
+
+.Meaning h2 {
+  font-family: "BlackMangoVariable";
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #52b3e8;
+}
+
+.Meaning p {
+  font-family: Gayathri;
+  letter-spacing: 1px;
+  color: #355d8b;
+}
+
+.Phonetic a {
+  text-decoration: none;
+  font-size: 40px;
+  color: #355d8b;
+}
+
+.Phonetic a:hover {
+  text-decoration: none;
+  color: #52b3e8;
 }
