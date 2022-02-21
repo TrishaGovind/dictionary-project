@@ -24,14 +24,25 @@
 .Meaning h2 {
   font-family: "BlackMangoVariable";
   font-weight: 500;
+  font-size: 21px;
   text-transform: capitalize;
   color: #52b3e8;
 }
 
-.Meaning p {
+.Meaning .definition {
   font-family: Gayathri;
+  font-weight: 400;
   letter-spacing: 1px;
   color: #355d8b;
+}
+
+.Meaning .example {
+  font-family: Gayathri;
+  font-style: italic;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #000000;
+  opacity: 0.6;
 }
 
 .Phonetic a {
@@ -58,6 +69,7 @@
 }
 
 .Synonyms li {
+  display: inline;
   list-style: none;
   color: #52b3e8;
   border: 1px solid #52b3e8;
