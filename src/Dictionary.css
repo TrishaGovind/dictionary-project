@@ -23,7 +23,7 @@
 
 .Meaning h2 {
   font-family: "BlackMangoVariable";
-  font-weight: 500;
+  font-weight: 600;
   font-size: 21px;
   text-transform: capitalize;
   color: #52b3e8;
@@ -45,21 +45,20 @@
   opacity: 0.6;
 }
 
-.Phonetic a {
-  text-decoration: none;
-  font-size: 40px;
+.Phonetic .button {
+  font-size: 34px;
   color: #355d8b;
   transition: all 150ms ease-in-out;
 }
 
-.Phonetic a:hover {
+.Phonetic .button:hover {
   text-decoration: none;
   color: #52b3e8;
+  cursor: pointer;
 }
 
 .Phonetic .text {
-  opacity: 0.6;
-
+  opacity: 0.5;
   letter-spacing: 1px;
 }
 
@@ -69,11 +68,10 @@
 }
 
 .Synonyms li {
-  display: inline;
-  list-style: none;
-  color: #52b3e8;
-  border: 1px solid #52b3e8;
-  border-radius: 20px;
-  padding: 7px 15px 2px;
-  width: 20%;
+  font-family: Gayathri;
+  letter-spacing: 1px;
+  font-size: 13px;
+  display: inline-block;
+  padding-right: 30px;
+  opacity: 0.7;
 }
