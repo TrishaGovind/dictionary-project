@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <a href="./Dictionary.js">
+          <a href="https://dictionarybytrisha.netlify.app">
             <img
               src={logo}
               className="App-logo img-fluid mx-auto d-block mt-4"
