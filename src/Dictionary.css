@@ -38,9 +38,30 @@
   text-decoration: none;
   font-size: 40px;
   color: #355d8b;
+  transition: all 150ms ease-in-out;
 }
 
 .Phonetic a:hover {
   text-decoration: none;
   color: #52b3e8;
+}
+
+.Phonetic .text {
+  opacity: 0.6;
+
+  letter-spacing: 1px;
+}
+
+.Synonyms {
+  padding: 0;
+  margin: 0;
+}
+
+.Synonyms li {
+  list-style: none;
+  color: #52b3e8;
+  border: 1px solid #52b3e8;
+  border-radius: 20px;
+  padding: 7px 15px 2px;
+  width: 20%;
 }

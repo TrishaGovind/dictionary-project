@@ -14,7 +14,7 @@ export default function Phonetic(props) {
             &#9654;
           </a>
         </div>
-        <div className="col pt-3 ps-3">{props.phonetic.text}</div>
+        <div className="col pt-3 ps-3 text">{props.phonetic.text}</div>
       </div>
     </div>
   );
