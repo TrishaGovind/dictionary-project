@@ -18,9 +18,14 @@ body {
 }
 
 footer {
-  font-size: 12px;
+  font-size: 10px;
   color: #58769e;
   font-family: Gayathri;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   color: #355d8b;
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 20px rgb(62 219 255 / 15%);
+  margin: 20px 0;
 }
